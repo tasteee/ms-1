@@ -1,0 +1,30 @@
+.SideBarPanel {
+  width: 300px;
+  margin-top: 8px;
+  height: calc(100vh - 64px);
+  border-radius: 8px;
+  padding: 16px;
+  margin-right: 8px;
+}
+
+.searchAccessory > div,
+.searchAccessory > div > div {
+  width: 100% !important;
+}
+
+.FlowFieldset {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.FlowFieldsetInput {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #919191;
+  height: 40px;
+  padding: 0px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

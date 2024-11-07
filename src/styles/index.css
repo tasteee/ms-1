@@ -1,0 +1,35 @@
+:root,
+html,
+body,
+#root,
+canvas {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overscroll-behavior: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+canvas {
+  z-index: 2;
+}
+
+*,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  margin-bottom: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}

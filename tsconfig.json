@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["DOM", "DOM.Iterable", "ESNext", "ES2015"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": false,
+		"resolveJsonModule": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["./src/*"],
+			"~*": ["src/*"]
+		},
+
+		"typeRoots": ["./node_modules/@types", "src/types/global.d.ts"]
+	},
+	"include": [
+		"src",
+		"src/global.d.ts",
+		"node_modules/appwrite/types/index.d.ts",
+		"auto-imports.d.ts"
+	]
+}
